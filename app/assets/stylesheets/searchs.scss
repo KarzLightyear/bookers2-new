@@ -1,0 +1,32 @@
+// Place all the styles related to the Searchs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+.fa, .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  line-height: normal;
+}
+
+#notice {
+  color: green;
+}
+
+#error_explanation {
+  color: red;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+.search-form {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
